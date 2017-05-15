@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: COHORTE :: OSGi Libs :: Log4j-over-slf4j
+Bundle-SymbolicName: org.cohorte.lib.log4j-over-slf4j
+Bundle-Version: 7.7.5
+Bundle-Activator: org.cohorte.lib.log4j_over_slf4j.Activator
+Bundle-Vendor: Slf4j
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.slf4j,
+ org.slf4j.helpers,
+ org.slf4j.impl,
+ org.slf4j.spi
+Bundle-ClassPath: lib/log4j-over-slf4j-1.7.5.jar,
+ .
+Export-Package: org.apache.log4j,
+ org.apache.log4j.helpers,
+ org.apache.log4j.spi,
+ org.apache.log4j.xml
